@@ -4,8 +4,8 @@ import { ALL_QUESTIONS } from "./questions.js";
 // ═══════════════════════════════════════════════════════════════
 //  🔧 CONFIGURATION — fill these in after Google Sheets setup
 // ═══════════════════════════════════════════════════════════════
-const SHEET_CHECK_URL  = "YOUR_APPS_SCRIPT_URL_HERE"; // same URL for both
-const SHEET_SUBMIT_URL = "YOUR_APPS_SCRIPT_URL_HERE";
+const SHEET_CHECK_URL  = "https://script.google.com/a/macros/itu.edu.pk/s/AKfycbz8d0m9FHWWfOs2_u4W0wqxe6Kz3T5nhY2nkQXCysQR73HpmeFYIkaKIYVubctDtm0nGA/exec"; // same URL for both
+const SHEET_SUBMIT_URL = "https://script.google.com/a/macros/itu.edu.pk/s/AKfycbz8d0m9FHWWfOs2_u4W0wqxe6Kz3T5nhY2nkQXCysQR73HpmeFYIkaKIYVubctDtm0nGA/exec";
 const QUIZ_SIZE        = 10;
 const TIME_PER_Q       = 45; // seconds per question
 // ═══════════════════════════════════════════════════════════════
