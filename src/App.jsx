@@ -134,7 +134,7 @@ function RegisterScreen({ onStart }) {
         </div>
 
         <Card>
-          <h1 style={{ color: C.text, fontSize: 28, fontWeight: 900, margin: "0 0 4px" }}>Labs 1–3 Quiz</h1>
+          <h1 style={{ color: C.text, fontSize: 28, fontWeight: 900, margin: "0 0 4px" }}>Labs 4–6 Quiz</h1>
           <p style={{ color: C.muted, fontSize: 13, marginBottom: 32, lineHeight: 1.6 }}>
             Linux CLI &nbsp;·&nbsp; GNU Toolchain &nbsp;·&nbsp; C File I/O
           </p>
@@ -145,7 +145,7 @@ function RegisterScreen({ onStart }) {
           </div>
           <div style={{ marginBottom: 28 }}>
             <Label>Roll Number</Label>
-            <Input value={roll} onChange={e => setRoll(e.target.value)} placeholder="e.g. 23-CE-001" onKeyDown={e => e.key === "Enter" && handleStart()} />
+            <Input value={roll} onChange={e => setRoll(e.target.value)} placeholder="e.g. BSSEXXXXX" onKeyDown={e => e.key === "Enter" && handleStart()} />
           </div>
 
           {error && (
