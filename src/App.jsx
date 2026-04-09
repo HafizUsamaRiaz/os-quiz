@@ -129,14 +129,14 @@ function RegisterScreen({ onStart }) {
         {/* Header badge */}
         <div style={{ textAlign: "center", marginBottom: 28 }}>
           <div style={{ display: "inline-block", background: C.dim, border: `1px solid ${C.border}`, borderRadius: 30, padding: "8px 20px", fontSize: 11, color: C.accent, letterSpacing: 3 }}>
-            ITU · CE210T · OPERATING SYSTEMS
+            ITU · SE301T · OPERATING SYSTEMS Lab
           </div>
         </div>
 
         <Card>
           <h1 style={{ color: C.text, fontSize: 28, fontWeight: 900, margin: "0 0 4px" }}>Labs 4–6 Quiz</h1>
           <p style={{ color: C.muted, fontSize: 13, marginBottom: 32, lineHeight: 1.6 }}>
-            Linux CLI &nbsp;·&nbsp; GNU Toolchain &nbsp;·&nbsp; C File I/O
+            Building a Linux-like Shell &nbsp;·&nbsp; Advanced Shell Features &nbsp;·&nbsp; Kernel Hacking (Xv6)
           </p>
 
           <div style={{ marginBottom: 16 }}>
