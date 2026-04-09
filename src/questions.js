@@ -1,4 +1,4 @@
-Gemini said
+
 export const ALL_QUESTIONS = [
 // ── Lab 4: Building a Linux-like Shell ──────────────────────────
 {
